@@ -1,0 +1,373 @@
+section.stripline {
+  background: #000;
+  padding: 5px 5px;
+}
+
+section.stripline p {
+  COLOR: #FFF;
+  MARGIN: 0;
+  TEXT-ALIGN: RIGHT;
+}
+
+a.logo {
+  display: block;
+  margin: 20px 0px;
+}
+
+a.logo img {
+  max-width: 240px;
+}
+
+.secicon {
+  position: absolute;
+  z-index: 9;
+  right: 40px;
+  top: 15px;
+}
+
+.secicon img {
+  box-shadow: 1px 0px 7px 2px #000;
+  border-radius: 50%;
+}
+
+.searchfinderuser {
+  overflow: overlay;
+  height: 34vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.searchfinderuser form ul.formdesign {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.searchfinderuser form ul.formdesign li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  padding-right: 5em;
+}
+
+.searchfinderuser form ul.formdesign li label {
+  white-space: nowrap;
+  margin-right: 0em;
+  width: 133px;
+  display: block;
+}
+
+.searchfinderuser form ul.formdesign li .form-control {
+  max-width: 340px;
+}
+
+.searchfinderuser.userdet {
+  overflow: overlay;
+  height: 72vh !important;
+}
+
+ul.proplefinderbox {
+  margin: 0;
+  list-style: none;
+  justify-content: end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  font-family: fantasy;
+  color: #e3111a;
+  line-height: 1em;
+  padding: 2px 0px;
+  height: 100%;
+}
+
+ul.proplefinderbox ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  padding: 0;
+  justify-content: space-between;
+}
+
+ul.proplefinderbox a {
+  text-decoration: none;
+}
+
+ul.proplefinderbox h2 {
+  margin: 0;
+  line-height: 1em;
+  border-bottom: 2px solid;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* -----------------> can start accordion style copy from here ------------------------*/
+
+.searchfinderuser .accordions {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 10px 30px 10px 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-top: 5px;
+  padding-left: 11em;
+  position: relative;
+  font-weight: 600;
+}
+
+.searchfinderuser .accordions:before {
+  content: "\f0d7";
+  color: #000;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  transform: translate(-50%, 0%);
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.searchfinderuser .accordions.active:before {
+  content: "\f0d8";
+}
+
+.searchfinderuser .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.searchpanleb ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+
+/* ---------- accordion style end --------------------------------------- */
+
+
+/*table*/
+.tableFixHead {
+  overflow-y: auto;
+  height: 253px;
+}
+
+.tableFixHeadr {
+  overflow-y: auto;
+  height: 253px;
+}
+
+
+/* Just common table stuff. */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background: #363636;
+  color: #fff;
+}
+
+.tableFixHead thead tr th,
+.tableFixHeadr thead tr th,
+.tableFixHeadr tbody tr td,
+.tableFixHead tbody tr td {
+  font-size: 13px;
+  padding: 8px 8px;
+  border-bottom: 1px solid #100f0f00 !important;
+}
+
+.tableseabox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-top: 2px solid #e30f18;
+}
+
+.tableseabox .fixtable {
+  width: 40%;
+  border-right: 1px solid #eee;
+}
+
+.tableseabox .tableFixHead {
+  width: 60%;
+}
+
+
+ 
+.tableFixHeadr tbody tr:hover {
+  background: rgb(13 110 253 / 25%);
+  border-bottom: 1px solid #000 !important;
+}
+.tableFixHeadr tbody tr:hover td {
+  border-bottom: 1px solid #e3111a !important;
+}
+
+.fixtable tbody tr:hover,
+.tableFixHead tbody tr:hover {
+  background: rgb(13 110 253 / 25%);
+  border-bottom: 1px solid #000 !important;
+}
+
+.fixtable tbody tr:hover td,
+.tableFixHead tbody tr:hover td {
+  border-bottom: 1px solid #e3111a !important;
+}
+
+.fixtable thead th {
+  font-size: 13px;
+  padding: 8px 8px;
+  border-right: 1px solid #100f0f00 !important;
+border-bottom: 1px solid #000;}
+
+.fixtable tbody td {
+  font-size: 13px;
+  padding: 8px 8px;
+  border-bottom: 1px solid #0000;
+}
+
+.userdetalis h1 {
+  text-align: center;
+  font-family: 'FontAwesome';
+  letter-spacing: 5.2px;
+  border-bottom: 1px solid #000;
+  max-width: 80%;
+  margin: 15px auto 15px auto;
+}
+
+.second-tab {
+  max-width: 80% !important;
+  width: 80% !important;
+  margin: auto;
+}
+
+.second-tab p {
+  font-weight: 700;
+}
+
+.second-tab ul {
+  list-style: none;
+  padding: 0px 9px;
+}
+
+.userdetalis .accordions {
+  padding-left: 6em;
+}
+
+ul.detailstext {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+ul.detailstext li {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+
+ul.detailstext li label,
+ul.detailstext li p {
+  margin: 0;
+}
+
+ul.detailstext li label {
+  width: 170px;
+  text-align: right;
+}
+
+ul.detailstext li p {
+  font-weight: 600;
+}
+
+ ul.detailstext {border-bottom: 1px solid #e3111a;padding-bottom: 15px;}
+
+.second-tab ul.detailstext li label {width: 115px;}
+/*tabs section */
+.tabteam {display: flex;flex-wrap: wrap;gap: 10px;width: 100%;max-width: 100%;margin-top: 15px;}
+
+.tabteam ul.nav.nav-tabs {width: 100px;display: initial;margin-right: 5px;border: none !important;}
+
+.tabteam ul.nav.nav-tabs li.nav-item {width: 100% !important;margin-bottom: 15px;}
+
+.tabteam .tab-content {width: 80%;display: flex;flex-wrap: wrap;}
+
+.tabteam .tab-pane {padding: 0;}
+
+.tabteam .tab-pane .tableseabox {display: flex;max-width: 100%;width: 100%;}
+
+.tabteam .tab-pane .col-sm-12 {padding: 0;}
+
+.tabteam .tab-pane .tableseabox .fixtable {width: 35%;}
+
+.tabteam .tab-pane .tableseabox .tableFixHeadr {}
+
+.tabteam ul.nav.nav-tabs li.nav-item a.nav-link {padding: 7px 0px;width: auto !important;border: 0;text-align: center;background: #e3111a;color: #fff;border-radius: 5px;line-height: 1em;text-transform: capitalize;font-weight: 600;opacity: 0.5;}
+
+.tabteam .tab-content .row {margin: 0;}
+
+.medsection>.container-fluid>.row {gap: 50px;justify-content: space-between;}
+
+.medsection>.container-fluid>.row .col-sm-6:first-child {flex: 0 0 auto;
+    width: 45%;background: #fff;}
+
+.medsection>.container-fluid>.row .col-sm-6:last-child {background: #fff;}
+
+section.medsection {background-image: linear-gradient(180deg, #798eae, #798eae);}
+.tabteam ul.nav.nav-tabs li.nav-item a.nav-link.active {opacity: 1;}
+
+.searchpanleb img {width: 37px;}
+
+.tableseabox [class*="tableFix"] {overflow: scroll;}
+
+.tableseabox [class*="tableFix"] table {white-space: nowrap;}
+
+.userbox {position: absolute;right: -48px;bottom: 40px;border-radius: 50%;box-shadow: 0px 0px 3px #818181b0;border: 2px solid #fff;overflow: hidden;}
+
+section.searchresultsstyle {position: relative;}
+
+.userbox img {width: 60px;
+  height: 60px;border-radius: 50%;}
+
+
+.search-icon {
+  position: absolute;
+  left: 35%;
+  overflow: hidden;
+ 
+}
+.search-icon img {
+  width: 70%;
+}
