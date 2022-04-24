@@ -373,8 +373,30 @@ section.searchresultsstyle {position: relative;}
   position: absolute;
   left: 35%;
   overflow: hidden;
+  top: 385px;
+  z-index: 99;
  
 }
+.refresh-icon{
+  position: absolute;
+left: 42%;
+  overflow: hidden;
+  z-index: 99;
+
+  top: 385px;
+}
+.search-icon button{
+  background: transparent;
+    border: none;
+}
+.refresh-icon button{
+  background-color: transparent;
+  border: none;
+}
+
 .search-icon img {
   width: 70%;
+}
+.btn-check:active+.btn-info:focus, .btn-check:checked+.btn-info:focus, .btn-info.active:focus, .btn-info:active:focus, .show>.btn-info.dropdown-toggle:focus{
+  box-shadow: 0 0 0 0.25rem transparent !important;
 }

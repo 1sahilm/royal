@@ -58,8 +58,8 @@
 <div class="searchpanleb">
   <ul>
     <li>SEARCH</li>
-    <li class="search-icon"><a href=""><img src="img/search.png"></a></li>
-    <li><a href=""><img src="img/refpng.png"></a></li>
+    <li class="search-icon"><button href=""><img src="img/search.png"></button></li>
+    <li class="refresh-icon"><button href=""><img src="img/refpng.png"></button></li>
     
   </ul>
 </div>
@@ -94,96 +94,92 @@
 
 
          
-<button class="accordions">Name</button>
-<div class="panel">
-   <form class="">
 
 
-<ul class="formdesign">
-  <li>
-    <label>First Name</label>
-    <input type="text" class="form-control" placeholder=""> 
-  </li>
+<button type="button" class="btn btn-info accordions" data-toggle="collapse" data-target="#responsibility">Area of Responsibility</button>
+<div id="responsibility" class="collapse sac">
+  <div class="form">
 
-  <li>
-    <label>Lasr Name</label>
-    <input type="text" class="form-control" placeholder=""> 
-  </li>
-</ul>
-     
-        
-      
-       
-       
-   </form>
-</div>
 
-<button class="accordions">Area of Responsibility</button>
-<div class="panel">
-<form class="">
-  <ul class="formdesign">
-  <li>
-    <label>Role</label>
-    <input type="text" class="form-control" placeholder=""> 
-  </li>
-
-  <li>
-    <label>Section</label>
-    <input type="text" class="form-control" placeholder=""> 
-  </li>
-
-  <li>
-    <label>Business Units</label>
-    <select class="form-select form-control">
-  <option>1</option>
-  <option>2</option>
-  <option>3</option>
-  <option>4</option>
-</select>
-  </li>
-</ul>
-  </form> 
-</div>
-
-<button class="accordions">Work Location</button>
-<div class="panel">
-  <form class="">
-  <ul class="formdesign">
-  <li>
-    <label>Location Office</label>
-    <input type="text" class="form-control" placeholder=""> 
-  </li>
-
-  <li>
-    <label>Town/City</label>
-    <input type="text" class="form-control" placeholder=""> 
-  </li>
-
-  <li>
-    <label>Postcode</label>
-    <input type="text" class="form-control" placeholder="">
-  </li>
-</ul>
-</form>
+    <ul class="formdesign">
+      <li>
+        <label>Role</label>
+        <input type="text" class="form-control" placeholder=""> 
+      </li>
+    
+      <li>
+        <label>Section</label>
+        <input type="text" class="form-control" placeholder=""> 
+      </li>
+    
+      <li>
+        <label>Business Units</label>
+        <select class="form-select form-control">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+    </select>
+      </li>
+    </ul>
+         
+            
+          
+           
+           
+  </div>
 </div>
 
 
-<button class="accordions">Contact Methods</button>
-<div class="panel">
-  <form class="">
+
+<button type="button" class="btn btn-info accordions" data-toggle="collapse" data-target="#location">Work Location</button>
+
+<div id="location" class="collapse sac">
+  <div class="form">
+
+
+    <ul class="formdesign">
+      <li>
+        <label>Location Office</label>
+        <input type="text" class="form-control" placeholder=""> 
+      </li>
+    
+      <li>
+        <label>Town/City</label>
+        <input type="text" class="form-control" placeholder=""> 
+      </li>
+    
+      <li>
+        <label>Postcode</label>
+        <input type="text" class="form-control" placeholder="">
+      </li>
+    </ul>
+         
+            
+          
+           
+           
+  </div>
+</div>
+
+<button type="button" class="btn btn-info accordions" data-toggle="collapse" data-target="#contact">Contact Methods</button>
+<div id="contact" class="collapse sac">
+<div class="form">
   <ul class="formdesign">
-  <li>
-    <label>Telephone</label>
-    <input type="text" class="form-control" placeholder=""> 
-  </li>
-</ul>
-</form>
-</div> 
+    <li>
+      <label>Telephone</label>
+      <input type="text" class="form-control" placeholder=""> 
+    </li>
+  </ul>
+
+</div>
+</div>
+
    
       </div>
 
 
-      <section class="searchresultsstyle">
+      <section class="searchresultsstyle mt-4 pt-4">
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-12">
@@ -391,400 +387,412 @@
            
          
  
-
-<button class="accordions">PERSONAL DETAILS</button>
-<div class="panel">
- <ul class="detailstext">
-   <li>
-     <label>Title :</label>
-     <p>Mrs</p>
-   </li>
-   <li>
-     <label>Full Name :</label>
-     <p>Pabitra</p>
-   </li>
-   <li>
-     <label>Initials :</label>
-     <p>P</p>
-   </li>
-   <li>
-     <label>Surname :</label>
-     <p>Gharti</p>
-   </li>
- </ul>
-</div>
-
-<button class="accordions">EMPLOYMENT DETAILS</button>
-<div class="panel">
-   <ul class="detailstext">
-   <li>
-     <label>Role :</label>
-     <p>Cleaner</p>
-   </li>
-   <li>
-     <label>Section :</label>
-     <p>C & OM - London</p>
-   </li>
-   <li>
-     <label>Business Unit :</label>
-     <p>R M PROPERTY  & FACILITIES LTD</p>
-   </li>
-   <li>
-     <label>Organisation :</label>
-     <p>Operations Soft  South B Area 3</p>
-   </li>
-    <li>
-     <label>Area Of Responsibiltiy :</label>
-     <p></p>
-   </li>
- </ul>
-</div>
+   <button type="button" class="btn btn-info accordions" data-toggle="collapse" data-target="#personal">PERSONAL DETAILS</button>
+   <div id="personal" class="collapse sac">
+   <div class="form">
+    <ul class="detailstext">
+      <li>
+        <label>Title :</label>
+        <p>Mrs</p>
+      </li>
+      <li>
+        <label>Full Name :</label>
+        <p>Pabitra</p>
+      </li>
+      <li>
+        <label>Initials :</label>
+        <p>P</p>
+      </li>
+      <li>
+        <label>Surname :</label>
+        <p>Gharti</p>
+      </li>
+    </ul>
+   
+   </div>
+   </div>
 
 
-<button class="accordions">LOCATION DETAILS</button>
-<div class="panel">
-  <ul class="detailstext">
-   <li>
-     <label>Location Building :</label>
-     <p>Bognor Regis DO</p>
-   </li>
-   <li>
-     <label>Room :</label>
-     <p></p>
-   </li>
-   <li>
-     <label>Address :</label>
-     <p>High Street </p>
-   </li>
-   <li>
-     <label>Town/City :</label>
-     <p>BOGNOR REGIS</p>
-   </li>
-    <li>
-     <label>Post Code :</label>
-     <p>P021 1RG</p>
-   </li>
- </ul>
-</div> 
 
 
-<button class="accordions">TEAM</button>
-<div class="panel">
-  <ul class="detailstext">
-   <li>
-     <label>Manager :</label>
-     <p>Paul Jackson</p>
-   </li>
-   <li>
-     <label>Email :</label>
-     <p>PaulJackson@royalmailgroup.com</p>
-   </li>
+   <button type="button" class="btn btn-info accordions" data-toggle="collapse" data-target="#employ">EMPLOYMENT DETAILS</button>
+   <div id="employ" class="collapse sac">
+   <div class="form">
     
-  
- </ul>
+    <ul class="detailstext">
+      <li>
+        <label>Role :</label>
+        <p>Cleaner</p>
+      </li>
+      <li>
+        <label>Section :</label>
+        <p>C & OM - London</p>
+      </li>
+      <li>
+        <label>Business Unit :</label>
+        <p>R M PROPERTY  & FACILITIES LTD</p>
+      </li>
+      <li>
+        <label>Organisation :</label>
+        <p>Operations Soft  South B Area 3</p>
+      </li>
+       <li>
+        <label>Area Of Responsibiltiy :</label>
+        <p></p>
+      </li>
+    </ul>
+   </div>
+   </div>
 
-<div class="tabteam">
-   <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link active" href="#peers">peers</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#team">Team</a>
-    </li>
-    
-  </ul>
 
-    <!-- Tab panes -->
-  <div class="tab-content">
-    <div id="peers" class="container tab-pane active"> 
-       <div class="row">
-         <div class="col-sm-12">
-           <div class="tableseabox">
-         <div class="fixtable">
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Surname</th>
-         
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>
-      </tr>
-
-       <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>   
-      </tr>
-
-       <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>
-      </tr>
-
-       <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>
-      </tr>
-       <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>
-      </tr>
-       <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>
-      </tr>
-      
-    </tbody>
-  </table>
-</div>
- <div class="tableFixHeadr">
-  <table>
-    <thead>
-      <tr>
-        
-        <th>Bus. Unit</th>
-        <th>Area Of Resp</th>
-        <th>Location</th>
-        <th>City</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-         
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-       
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-         
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+   <button type="button" class="btn btn-info accordions" data-toggle="collapse" data-target="#location2">LOCATION DETAILS</button>
+   <div id="location2" class="collapse sac">
+   <div class="form">
+    <ul class="detailstext">
+      <li>
+        <label>Location Building :</label>
+        <p>Bognor Regis DO</p>
+      </li>
+      <li>
+        <label>Room :</label>
+        <p></p>
+      </li>
+      <li>
+        <label>Address :</label>
+        <p>High Street </p>
+      </li>
+      <li>
+        <label>Town/City :</label>
+        <p>BOGNOR REGIS</p>
+      </li>
+       <li>
+        <label>Post Code :</label>
+        <p>P021 1RG</p>
+      </li>
+    </ul>
      </div>
-         </div>
-       </div>
-    </div>
-    <div id="team" class="container tab-pane fade">
-
-      <div class="row">
-         <div class="col-sm-12">
-           <div class="tableseabox">
-         <div class="fixtable">
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Surname</th>
-         
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>
-      </tr>
-
-       <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>   
-      </tr>
-
-       <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>
-      </tr>
-
-       <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>
-      </tr>
-       <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>
-      </tr>
-       <tr>
-        <td>Naveen</td>
-        <td>Gupta</td>
-      </tr>
-      
-    </tbody>
-  </table>
-</div>
- <div class="tableFixHeadr">
-  <table>
-    <thead>
-      <tr>
-        
-        <th>Bus. Unit</th>
-        <th>Area Of Resp</th>
-        <th>Location</th>
-        <th>City</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-         
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-       
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-        
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-       <tr>
-         
-        <td>RM Letters</td>
-        <td></td>
-        <td>Delhi NCR</td>
-        <td>Noida</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
      </div>
-         </div>
-       </div>
-    </div>
+
+     <button type="button" class="btn btn-info accordions" data-toggle="collapse" data-target="#team">TEAM</button>
+     <div id="team" class="collapse sac">
+     <div class="form">
+      <ul class="detailstext">
+        <li>
+          <label>Manager :</label>
+          <p>Paul Jackson</p>
+        </li>
+        <li>
+          <label>Email :</label>
+          <p>PaulJackson@royalmailgroup.com</p>
+        </li>
+         
+       
+      </ul>
      
-  </div>
+     <div class="tabteam">
+        <ul class="nav nav-tabs">
+         <li class="nav-item">
+           <a class="nav-link active" href="#peers">peers</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#team">Team</a>
+         </li>
+         
+       </ul>
+     
+         <!-- Tab panes -->
+       <div class="tab-content">
+         <div id="peers" class="container tab-pane active"> 
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="tableseabox">
+              <div class="fixtable">
+       <table>
+         <thead>
+           <tr>
+             <th>Name</th>
+             <th>Surname</th>
+              
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>
+           </tr>
+     
+            <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>   
+           </tr>
+     
+            <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>
+           </tr>
+     
+            <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>
+           </tr>
+            <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>
+           </tr>
+            <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>
+           </tr>
+           
+         </tbody>
+       </table>
+     </div>
+      <div class="tableFixHeadr">
+       <table>
+         <thead>
+           <tr>
+             
+             <th>Bus. Unit</th>
+             <th>Area Of Resp</th>
+             <th>Location</th>
+             <th>City</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+              
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+            
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+              
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+          </div>
+              </div>
+            </div>
+         </div>
+         <div id="team" class="container tab-pane fade">
+     
+           <div class="row">
+              <div class="col-sm-12">
+                <div class="tableseabox">
+              <div class="fixtable">
+       <table>
+         <thead>
+           <tr>
+             <th>Name</th>
+             <th>Surname</th>
+              
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>
+           </tr>
+     
+            <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>   
+           </tr>
+     
+            <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>
+           </tr>
+     
+            <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>
+           </tr>
+            <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>
+           </tr>
+            <tr>
+             <td>Naveen</td>
+             <td>Gupta</td>
+           </tr>
+           
+         </tbody>
+       </table>
+     </div>
+      <div class="tableFixHeadr">
+       <table>
+         <thead>
+           <tr>
+             
+             <th>Bus. Unit</th>
+             <th>Area Of Resp</th>
+             <th>Location</th>
+             <th>City</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+              
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+            
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+             
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noida</td>
+           </tr>
+            <tr>
+              
+             <td>RM Letters</td>
+             <td></td>
+             <td>Delhi NCR</td>
+             <td>Noidasss</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+          </div>
+              </div>
+            </div>
+         </div>
+          
+       </div>
+     
+     </div>
+     </div>
+     </div>
 
-</div>
 
-</div>
    
       </div>
     </div>
